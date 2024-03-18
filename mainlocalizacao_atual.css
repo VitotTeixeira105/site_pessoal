@@ -1,0 +1,12 @@
+.marco_de_canaveses_porto {
+    font-size: 350%;
+}
+
+.marco_de_canaveses_porto a{
+    text-decoration: none;
+    color: black;
+}
+
+.maps {
+    border: 2px solid black;
+}

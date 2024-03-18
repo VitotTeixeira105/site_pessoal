@@ -1,0 +1,31 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    background-color: gainsboro;
+    width: 92%;
+    padding-bottom: 10px;
+}
+
+.div-header {
+    display: flex;
+}
+
+.div-var {
+    margin: 0 10px 0 10px;
+    opacity: 0%;
+}
+
+.item-header {
+    opacity: 100%;
+    transition: opacity 0.3s ease-in-out;
+    font-size: larger;
+}
+.item-header a{
+    text-decoration: none;
+    color: black;
+}
+.item-header:hover {
+    opacity: 70%;
+}

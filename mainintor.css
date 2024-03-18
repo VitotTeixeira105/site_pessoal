@@ -1,0 +1,25 @@
+.mainintor {
+    padding: 4%;
+    padding-top: 10%;
+}
+
+.mainintor img{
+    width: 80%;
+}
+
+.ola-large {
+    font-size: x-large;
+}
+
+.span-text-ola {
+    font-size: 500%;
+}
+
+.hr-color-black {
+    border-color: rgb(34, 34, 34);
+}
+
+.seta {
+    font-size: 500%;
+}
+

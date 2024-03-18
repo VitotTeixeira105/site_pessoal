@@ -1,0 +1,46 @@
+#trabalhos_recentes {
+    padding: 4%;
+}
+
+.title2-trabalhos_recentes {
+    font-size: x-large;
+}
+.title2-trabalhos_recentes a{
+    text-decoration: none;
+    color: black;
+}
+
+.table-trabalhos_recentes {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td-hover-text {
+    position: relative;
+}
+
+.td-hover-text img {
+    width: 100%;
+    filter: blur(0); /* Inicialmente sem desfoque */
+    transition: filter 0.3s;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0; /* Inicialmente invisível */
+    transition: opacity 0.3s;
+}
+
+.td-hover-text:hover img {
+    filter: blur(8px); /* Adiciona desfoque ao passar o mouse */
+}
+
+.td-hover-text:hover .text-overlay {
+    opacity: 1; /* Torna o texto visível ao passar o mouse */
+}

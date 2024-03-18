@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+header, footer {
+    padding: 2% 4% 0 4%;
+}
+
+.footerfooter {
+    font-size: larger;
+}
+
+.text-div-left-footer {
+    font-size: large;
+    line-height: 150%;
+}
+
+footer {
+    display: flex;
+    background-color: #303030;
+    color: whitesmoke;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    justify-content: space-between;
+}
+
+.vitorteixeirafooter {
+    font-size: xx-large;
+}
+
+.div-left-footer {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-footer {
+    padding: 5%;
+}
+
+.button-input-footer {
+    padding: 5%;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.title-name {
+    font-size: 200%;
+}
+
+.espaco {
+    padding: 5%;
+}
